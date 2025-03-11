@@ -69,3 +69,4 @@ fastlane/screenshots/
 *.cer
 *.gradle
 *.so
+android/app/.cxx

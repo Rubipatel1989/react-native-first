@@ -95,7 +95,10 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+### Youtube Link
+https://www.youtube.com/watch?v=JKccS9k56_I&t=2206s
 
+### Start Installation
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl git openjdk-17-jdk watchman -y
 ## Check all version
@@ -121,3 +124,19 @@ search android studio
 
 ### Now create new project in anywhere in machine. [Mostly in desktop]
 npx @react-native-community/cli init my-first-app
+
+## run project
+cd project-name
+npm start
+
+## Run/Open Android studio again
+/opt/android-studio/bin/studio.sh
+
+cd ~/Desktop/react-native-first/android
+./gradlew clean
+cd ..
+
+
+#### If all setup is done & you open machine first time then come into project directory and run below commond
+
+npx react-native run-android
