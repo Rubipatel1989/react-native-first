@@ -1,0 +1,71 @@
+# macOS system files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Metro Bundler cache
+metro-cache/
+
+# iOS
+ios/Pods/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+ios/build/
+ios/DerivedData/
+ios/*.pbxproj
+ios/*.xcuserdatad/
+ios/Podfile.lock
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/sourcemaps/
+android/app/src/main/jniLibs/
+android/local.properties
+android/.idea/
+android/app/google-services.json
+android/app/src/debug/google-services.json
+android/app/src/release/google-services.json
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Jest
+coverage/
+jest-cache/
+jest-transform-cache/
+
+# Babel
+babel-loader-cache/
+.cache/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Misc
+.env
+.env.*
+*.keystore
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.crt
+*.pem
+*.cer
+*.gradle
+*.so
