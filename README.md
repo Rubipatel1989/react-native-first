@@ -131,12 +131,11 @@ npm start
 
 ## Run/Open Android studio again
 /opt/android-studio/bin/studio.sh
+0. npm start
+1. cd ~/Desktop/react-native-first/android
+2. ./gradlew clean
+3. cd ..
+4. npx react-native run-android
 
-cd ~/Desktop/react-native-first/android
-./gradlew clean
-cd ..
-
-
-#### If all setup is done & you open machine first time then come into project directory and run below commond
-
-npx react-native run-android
+## If all setup is done & you open machine first time then come into project directory and run below commond
+1. npx react-native run-android
